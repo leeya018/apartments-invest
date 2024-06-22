@@ -48,8 +48,8 @@ const Header = () => {
           <Link href="/" className="nav-button">
             {translations.header.home}
           </Link>
-          <Link href={"/service/residency_relocation"} className="nav-button">
-            {translations.header.residency_relocation}
+          <Link href={"/addHouse"} className="nav-button">
+            add house
           </Link>
           <Link href={"/service/tax-planning-advice"} className="nav-button">
             {translations.header.tax_planning}

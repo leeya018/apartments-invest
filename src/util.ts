@@ -741,10 +741,7 @@ export const apartment = [
     bathrooms: 1,
     square_feet: 850,
     amenities: ["WiFi", "Air Conditioning", "Kitchen", "Washer"],
-    images: [
-      "https://example.com/images/apartment1_1.jpg",
-      "https://example.com/images/apartment1_2.jpg",
-    ],
+    images: ["/images/house.png", "/images/house.png"],
     description:
       "A modern apartment located in the heart of the city, close to all amenities.",
   },
@@ -757,10 +754,7 @@ export const apartment = [
     bathrooms: 1,
     square_feet: 500,
     amenities: ["WiFi", "Heating", "Kitchen"],
-    images: [
-      "https://example.com/images/apartment2_1.jpg",
-      "https://example.com/images/apartment2_2.jpg",
-    ],
+    images: ["/images/house.png", "/images/house.png"],
     description: "A cozy studio apartment with a beautiful view of the park.",
   },
   {
@@ -779,10 +773,7 @@ export const apartment = [
       "Dryer",
       "Parking",
     ],
-    images: [
-      "https://example.com/images/apartment3_1.jpg",
-      "https://example.com/images/apartment3_2.jpg",
-    ],
+    images: ["/images/house.png", "/images/house.png"],
     description:
       "A spacious apartment perfect for families, located in a quiet neighborhood.",
   },
