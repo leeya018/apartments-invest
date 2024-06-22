@@ -1,0 +1,599 @@
+{
+  "about_us": {
+    "welcome_message": "Welcome to E-golden – your trusted partner for relocation to Portugal.",
+    "who_we_are": "At E-golden, we specialize in providing comprehensive relocation services tailored to the unique needs of our clients. The idea to create E-golden stemmed from the challenges we identified that people wanting to move to Portugal face. Therefore, combining our experience in providing the necessary services, and after having gone through a similar process ourselves, the founders of E-golden, we welcome the opportunity to help as many people as possible to have the best and most comfortable experience in their relocation process.",
+    "our_mission": "Our mission is to provide top-notch relocation services that exceed customer expectations. We aim to minimize downtime and disruptions, enabling a smooth transition to new locations and resumption of activities as quickly as possible.",
+    "our_vision": "Our vision is to be the leading provider of relocation services worldwide, recognized for our commitment to quality, innovation, and customer satisfaction. Our goal is to set new standards in the relocation industry, ensuring that every move is a step forward for our clients.",
+    "our_values": {
+      "integrity": "We conduct our business to the highest ethical standards, ensuring transparency and honesty in all our dealings.",
+      "customer_focus": "Our customers are at the center of everything we do. We strive to understand their unique needs and provide personalized solutions.",
+      "excellence": "We are committed to delivering exceptional service and continuously improving our processes to exceed customer expectations.",
+      "teamwork": "We believe in the power of collaboration and work together to achieve common goals.",
+      "innovation": "We embrace new ideas and technologies to provide the best services to our customers."
+    },
+    "imageUrl": "/images/relocation.png"
+  },
+  "servicesMain": {
+    "title": "Welcome to our services portal",
+    "subtitles": [
+      "From relocation to investments",
+      "your one-stop service shop",
+      "with E-golden"
+    ],
+    "sectionTitle": "Your Personal and Tailored services with   ",
+    "buttonTxtService": "to service"
+  },
+  "services": {
+    "residency_relocation": {
+      "title": "Relocation and Residency",
+      "description": [
+        "Are you thinking about moving to a different country? Portugal will be the right place to fulfil your dreams and needs.",
+        "We can tailor a package of services perfectly suited to your exact needs, including residency permits, tax advice, home search, opening bank account, health insurance, driving license, and others."
+      ],
+      "imageUrl": "/images/relocation.png",
+
+      "details": {
+        "label": "Residency Permits",
+        "description": "Residency permits in Portugal provide a pathway to a new life in one of Europe's most desirable destinations. Whether through investment, employment, or family ties, Portugal offers a range of options for individuals seeking to establish residency in this beautiful country. With its welcoming atmosphere, rich culture, and stunning landscapes, Portugal truly is a gateway to European living. Obtaining residency in Portugal comes with a host of benefits. Beyond the opportunity to live in a safe and welcoming country with a high standard of living, residents also have access to Portugal's excellent healthcare and education systems. Additionally, residency in Portugal grants access to the wider Schengen Area, allowing for visa-free travel throughout much of Europe.",
+        "services": [
+          {
+            "label": "working_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "Working Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "digital_nomad_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "golden_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "Golden Visa – Investment visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "d7_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "D7 Visa – Passive Income Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "d2_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "D2 Visa – Freelancer/Independent services providers Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "startup_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+
+          {
+            "label": "student_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "Student Visa – Residence permit for studying in Portugal",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+
+          {
+            "label": "family_reunion_visa",
+
+            "imageUrl": "/images/relocation.png",
+            "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ],
+
+        "steps": [
+          {
+            "label": "visa",
+            "title": "Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "home_search",
+            "title": "Home Search",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "nif_number",
+            "title": "NIF Number",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "commodities_support",
+            "title": "Commodities Support",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "bank_account",
+            "title": "Bank Account",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "money_transfer",
+            "title": "Money Transfer",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          }
+        ],
+        "packages": {
+          "title": "buy pacakges with E-golden",
+
+          "list": [
+            {
+              "label": "red_package",
+              "title": "Red Package",
+              "imageUrl": "/images/relocation.png",
+
+              "services": [
+                "Home Seeker",
+                "Residency Permit",
+                "Commodities Support Services",
+                "NISS",
+                "NIF",
+                "Bank Account Support"
+              ]
+            },
+            {
+              "label": "golden_package",
+              "title": "Golden Package",
+              "imageUrl": "/images/relocation.png",
+
+              "services": [
+                "Home Seeker",
+                "Residency Permit",
+                "Commodities Support Services",
+                "NISS",
+                "NIF",
+                "Bank Account Support",
+                "Driving License",
+                "NHR",
+                "Insurance",
+                "School for kids",
+                "Cars Seekers"
+              ]
+            },
+            {
+              "label": "custom_package",
+              "imageUrl": "/images/relocation.png",
+
+              "title": "Custom Package",
+              "description": "Create your Own!"
+            }
+          ]
+        }
+      }
+    },
+    "tax-planning-advice": {
+      "title": "Tax Planning and advice",
+      "description": [
+        "Understanding your tax obligations and its impact on your personal life and business is essential when you decide to relocate or invest in a new country. "
+      ],
+      "imageUrl": "/images/tax.png",
+      "details": {
+        "title": "Tax Planning and Advice",
+        "description": "Tax planning is essential for any Company or Entrepreneur whose objective is to prosper in the development of their business. The decision to invest in a business, particularly one with long-term prospects, requires careful consideration of tax obligations and their resulting impact on the development of our proposed enterprise. An individual's decision to invest or start a life in another country is ultimately based on knowledge of Double Taxation Treaties and the potential benefits they offer, as well as familiarity with the nation's tax laws at a national level. In order to effectively carry out any project, it is essential to consult with the most up-to-date tax information available. E-Golden can help you identify the best way to proceed based on your specific circumstances, by having specialized and personal service to reduce the risks with the tax burden and, thus, improve your results and income.",
+        "services": [
+          {
+            "label": "tax_consultancy",
+            "imageUrl": "/images/relocation.png",
+            "title": "Tax Consultancy",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "tax_planning",
+            "imageUrl": "/images/relocation.png",
+            "title": "Tax Planning",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "double_taxation_consultancy",
+            "imageUrl": "/images/relocation.png",
+            "title": "Double Taxation Consultancy",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "nhr_consultancy_and_application_submission",
+            "imageUrl": "/images/relocation.png",
+            "title": "NHR Consultancy and Application Submission",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "tax_consultancy_for_athletes_and_artists",
+            "imageUrl": "/images/relocation.png",
+            "title": "Tax Consultancy for Athletes and Artists",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "tax_consultancy_for_real_estate_investments",
+            "imageUrl": "/images/relocation.png",
+            "title": "Tax Consultancy for Real Estate Investments",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ]
+      }
+    },
+    "business-solutions": {
+      "title": "Business Solutions",
+      "description": [
+        "You can count on E-golden to provide you with full company services in Portugal, including registration, domiciliation, bank account opening, accounting, tax planning, etc. "
+      ],
+      "imageUrl": "/images/business.png",
+      "details": {
+        "label": "Business Solutions",
+        "description": "In today's dynamic and competitive marketplace, businesses face numerous challenges that require innovative and tailored solutions. Business Solutions Services (BSS) are designed to address these challenges by providing a wide range of strategic, operational, and technological services that help organizations optimize their performance, achieve their goals, and drive sustainable growth. With E-Golden you will be able to achieve your goals faster and more efficiently. To this end, we are committed to providing the necessary services so that you can implement your business in Portugal. Starting with presenting a business plan, advice on the best tax structure for your business, choosing the best legal form for your company, supporting for opening a bank account and specialized accounting services.",
+
+        "services": [
+          {
+            "label": "business_advice",
+            "imageUrl": "/images/relocation.png",
+            "title": "Business Advice – Business plan and tax advice",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "company_services",
+            "imageUrl": "/images/relocation.png",
+            "title": "Company Services – Company Incorporation and Brand registration",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "company_domiciliation",
+            "imageUrl": "/images/relocation.png",
+            "title": "Company’s Domiciliation",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "bank_account",
+            "imageUrl": "/images/relocation.png",
+            "title": "Bank account",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "accounting",
+            "imageUrl": "/images/relocation.png",
+            "title": "Accounting",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ]
+      }
+    },
+    "real-estate-investments-management": {
+      "title": "Real Estate Investments and Management",
+      "description": [
+        "With E-golden you can have an integrated real estate solution from the planning stage down to the day-to-day management of properties in Portugal."
+      ],
+
+      "imageUrl": "/images/realestate.png",
+      "details": {
+        "label": "Real Estate Investments and Management",
+        "description": "Investing in real estate can be highly lucrative but also complex, requiring expertise, strategic planning, and meticulous management. E-Golden´s Real Estate Investments and Management Services are designed to guide you maximize returns, minimize risks, and ensure the smooth operation of your real estate assets. Whether you're an individual investor or a corporate entity, our comprehensive suite of services is tailored to meet your unique needs and goals.",
+
+        "services": [
+          {
+            "label": "real_estate_investment_planning",
+            "imageUrl": "/images/relocation.png",
+            "title": "Real Estate Investment Planning",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "property_search_services",
+            "imageUrl": "/images/relocation.png",
+            "title": "Property Search Services",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "assistance_with_property_purchase",
+            "imageUrl": "/images/relocation.png",
+            "title": "Assistance with Property Purchase",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "real_estate_management_services",
+            "imageUrl": "/images/relocation.png",
+            "title": "Real Estate Management Services",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ]
+      }
+    }
+  },
+
+  "footer": {
+    "title": "About Us",
+    "p1": "Learn more about our mission and services.",
+    "email": "Email: info@example.com",
+    "phone": "Phone: +123 456 7890",
+    "schedule_meeting": "Schedule Meeting",
+    "quick_links": "Quick Links",
+    "services": "Services",
+    "about_us": "About Us",
+    "follow_us": "Follow Us",
+    "contact": "Contact",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "Whatsapp",
+    "reserved": "E-Golden. All rights reserved.",
+    "moto": "Specialists in relocation and Tax in Portugal, from your residence to your project"
+  },
+  "header": {
+    "home": "Home",
+    "residency_relocation": "Residency & Relocation",
+    "tax_planning": "Tax Planning",
+    "business": "Business",
+    "real_estate": "Real Estate",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "contact_form": {
+    "contact_us": "Contact Us!",
+    "first_name": "First Name:",
+    "last_name": "Last Name:",
+    "topic": "Topic:",
+    "select_topic": "Select a topic",
+    "relocation_inquiry": "Relocation Inquiry",
+    "tax": "Tax",
+    "business_solutions": "Business Solutions",
+    "real_estate": "Real Estate",
+    "message": "Message:",
+    "email": "Email:",
+    "submit": "Submit"
+  },
+  "testimonials": {
+    "buttonTxt": "Read More",
+    "list": [
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      }
+    ]
+  },
+  "press": {
+    "title": "Press",
+    "list": [
+      {
+        "title": "Tech Advances",
+        "description": "Latest advancements in technology .",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Tech Advances",
+        "description": "Latest advancements in technology .",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Tech Advances",
+        "description": "Latest advancements in technology .",
+        "imageUrl": "/images/relocation.png"
+      }
+    ]
+  },
+  "contactForm": {
+    "title": "Have a question? Contact us",
+    "description": "We will respond by email within no longer than one working day.",
+    "fields": [
+      {
+        "placeholder": "First name*"
+      },
+      {
+        "placeholder": "Last name*"
+      },
+      {
+        "placeholder": "Email*"
+      },
+      {
+        "placeholder": "Nationality*",
+        "options": ["Country1", "Country2", "..."]
+      },
+      {
+        "placeholder": "Residence*",
+        "options": ["Country1", "Country2", "..."]
+      },
+      {
+        "placeholder": "What are you interested in?*"
+      }
+    ],
+    "note": "N.B.: By contacting us you are granting your consent for us to forward your details to a E-golden respond directly to you.",
+    "submit": {
+      "text": "Submit"
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "about_us": {
+    "welcome_message": "Bem-vindo à E-golden, seu parceiro de confiança para a realocação em Portugal.",
+    "who_we_are": "Na E-golden, nos especializamos em fornecer serviços de realocação abrangentes, adaptados às necessidades únicas de nossos clientes. A ideia de criar a E-golden surgiu dos desafios que identificamos que as pessoas que desejam se mudar para Portugal enfrentam. Portanto, combinando nossa experiência em fornecer os serviços necessários e tendo passado por um processo semelhante, os fundadores da E-golden, damos as boas-vindas à oportunidade de ajudar o maior número possível de pessoas a ter a melhor e mais confortável experiência em seu processo de realocação.",
+    "our_mission": "Nossa missão é fornecer serviços de realocação de primeira linha que superem as expectativas dos clientes. Nosso objetivo é minimizar o tempo de inatividade e as interrupções, permitindo uma transição suave para novos locais e a retomada das atividades o mais rápido possível.",
+    "our_vision": "Nossa visão é ser o principal fornecedor de serviços de realocação em todo o mundo, reconhecido pelo nosso compromisso com a qualidade, inovação e satisfação do cliente. Nosso objetivo é estabelecer novos padrões na indústria de realocação, garantindo que cada mudança seja um passo à frente para nossos clientes.",
+    "our_values": {
+      "integrity": "Conduzimos nossos negócios com os mais altos padrões éticos, garantindo transparência e honestidade em todas as nossas transações.",
+      "customer_focus": "Nossos clientes estão no centro de tudo o que fazemos. Nos esforçamos para entender suas necessidades únicas e fornecer soluções personalizadas.",
+      "excellence": "Estamos comprometidos em oferecer um serviço excepcional e melhorar continuamente nossos processos para superar as expectativas dos clientes.",
+      "teamwork": "Acreditamos no poder da colaboração e trabalhamos juntos para alcançar objetivos comuns.",
+      "innovation": "Adotamos novas ideias e tecnologias para fornecer os melhores serviços aos nossos clientes."
+    },
+    "imageUrl": "/images/relocation.png"
+  },
+  "servicesMain": {
+    "title": "Bem-vindo ao nosso portal de serviços",
+    "subtitles": [
+      "De realocação a investimentos",
+      "sua loja de serviços completa",
+      "com a"
+    ],
+    "sectionTitle": "Serviços",
+    "buttonTxtService": "Para serviço"
+  },
+
+  "services": {
+    "residency_relocation": {
+      "title": "Realocação e Residência",
+      "description": [
+        "Está pensando em se mudar para outro país? Portugal será o lugar certo para realizar seus sonhos e necessidades.",
+        "Podemos criar um pacote de serviços perfeitamente adaptado às suas necessidades exatas, incluindo permissões de residência, consultoria fiscal, busca de moradia, abertura de conta bancária, seguro de saúde, carteira de motorista e outros."
+      ],
+      "location": "relocation",
+      "imageUrl": "/images/relocation.png",
+
+      "details": {
+        "label": "Residency Permits",
+        "description": "As permissões de residência em Portugal oferecem um caminho para uma nova vida em um dos destinos mais desejáveis da Europa. Seja por meio de investimento, emprego ou laços familiares, Portugal oferece uma variedade de opções para indivíduos que desejam estabelecer residência neste belo país. Com seu ambiente acolhedor, rica cultura e paisagens deslumbrantes, Portugal é verdadeiramente um portal para a vida europeia. Obter residência em Portugal vem com uma série de benefícios. Além da oportunidade de viver em um país seguro e acolhedor com um alto padrão de vida, os residentes também têm acesso aos excelentes sistemas de saúde e educação de Portugal. Além disso, a residência em Portugal concede acesso à Área Schengen, permitindo viagens sem visto por grande parte da Europa.",
+        "services": [
+          {
+            "label": "working_visa",
+            "title": "Visto de Trabalho",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "digital_nomad_visa",
+            "title": "Visto Nômade Digital – Você obtém seu visto trabalhando remotamente ou gerenciando um negócio",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "golden_visa",
+            "title": "Visto Dourado – Visto de investimento",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "d7_visa",
+            "title": "Visto D7 – Visto de renda passiva",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "d2_visa",
+            "title": "Visto D2 – Visto para freelancers/provedores de serviços independentes",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "startup_visa",
+            "title": "Visto para Startup – Visto por desenvolver um negócio empreendedor/inovador em Portugal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "student_visa",
+            "title": "Visto Estudantil – Permissão de residência para estudar em Portugal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "family_reunion_visa",
+            "title": "Visto de Reunião Familiar – Sendo português ou titular de uma permissão de residência, você pode garantir a seus familiares um visto",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ],
+
+        "steps": [
+          {
+            "label": "visa",
+            "title": "Visto",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "home_search",
+            "title": "Busca de Casa",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "nif_number",
+            "title": "Número NIF",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "commodities_support",
+            "title": "Suporte de Commodities",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "bank_account",
+            "title": "Conta Bancária",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "money_transfer",
+            "title": "Transferência de Dinheiro",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          }
+        ],
+        "packages": {
+          "red_package": {
+            "label": "red_package",
+            "title": "Pacote Vermelho",
+            "services": [
+              "Buscador de Casa",
+              "Permissão de Residência",
+              "Serviços de Suporte de Commodities",
+              "NISS",
+              "NIF",
+              "Suporte para Conta Bancária"
+            ]
+          },
+          "golden_package": {
+            "label": "golden_package",
+            "title": "Pacote Dourado",
+            "services": [
+              "Buscador de Casa",
+              "Permissão de Residência",
+              "Serviços de Suporte de Commodities",
+              "NISS",
+              "NIF",
+              "Suporte para Conta Bancária",
+              "Carteira de Motorista",
+              "NHR",
+              "Seguro",
+              "Escola para crianças",
+              "Buscadores de Carros"
+            ]
+          },
+          "custom_package": {
+            "label": "custom_package",
+            "title": "Pacote Personalizado",
+            "description": "Crie o seu próprio!"
+          }
+        }
+      }
+    },
+    "tax-planning-advice": {
+      "title": "Planejamento Fiscal e Consultoria",
+      "description": [
+        "Compreender suas obrigações fiscais e seu impacto em sua vida pessoal e nos negócios é essencial quando você decide se realocar ou investir em um novo país."
+      ],
+      "location": "tax",
+      "imageUrl": "/images/tax.png",
+      "details": {
+        "title": "Planejamento Fiscal e Consultoria",
+        "description": "O planejamento fiscal é essencial para qualquer empresa ou empreendedor cujo objetivo é prosperar no desenvolvimento de seus negócios. A decisão de investir em um negócio, particularmente com perspectivas de longo prazo, exige consideração cuidadosa das obrigações fiscais e seu impacto resultante no desenvolvimento de nossa proposta empresarial. A decisão de um indivíduo de investir ou iniciar uma vida em outro país é, em última análise, baseada no conhecimento dos Tratados de Dupla Tributação e nos benefícios potenciais que eles oferecem, bem como no conhecimento das leis fiscais do país em nível nacional. Para realizar efetivamente qualquer projeto, é essencial consultar as informações fiscais mais atualizadas disponíveis. A E-Golden pode ajudá-lo a identificar a melhor maneira de proceder com base em suas circunstâncias específicas, oferecendo serviços especializados e personalizados para reduzir os riscos com a carga tributária e, assim, melhorar seus resultados e renda.",
+        "services": [
+          {
+            "label": "tax_consultancy",
+            "title": "Consultoria Fiscal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "tax_planning",
+            "title": "Planejamento Fiscal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "double_taxation_consultancy",
+            "title": "Consultoria de Dupla Tributação",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "nhr_consultancy_and_application_submission",
+            "title": "Consultoria e Submissão de Aplicação NHR",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "tax_consultancy_for_athletes_and_artists",
+            "title": "Consultoria Fiscal para Atletas e Artistas",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "tax_consultancy_for_real_estate_investments",
+            "title": "Consultoria Fiscal para Investimentos Imobiliários",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ]
+      }
+    },
+    "business-solutions": {
+      "title": "Soluções de Negócios",
+      "description": [
+        "Você pode contar com a E-golden para fornecer serviços completos de empresa em Portugal, incluindo registro, domiciliação, abertura de conta bancária, contabilidade, planejamento tributário, etc."
+      ],
+      "location": "business",
+      "imageUrl": "/images/business.png",
+      "details": {
+        "label": "Business Solutions",
+        "description": "No mercado dinâmico e competitivo de hoje, as empresas enfrentam inúmeros desafios que exigem soluções inovadoras e personalizadas. Os Serviços de Soluções de Negócios (BSS) são projetados para enfrentar esses desafios, fornecendo uma ampla gama de serviços estratégicos, operacionais e tecnológicos que ajudam as organizações a otimizar seu desempenho, alcançar seus objetivos e impulsionar o crescimento sustentável. Com a E-Golden, você poderá alcançar seus objetivos mais rapidamente e de forma mais eficiente. Para isso, estamos comprometidos em fornecer os serviços necessários para que você possa implementar seu negócio em Portugal. Começando com a apresentação de um plano de negócios, consultoria sobre a melhor estrutura tributária para seu negócio, escolha da melhor forma legal para sua empresa, suporte para abertura de conta bancária e serviços contábeis especializados.",
+
+        "services": [
+          {
+            "label": "business_advice",
+            "title": "Consultoria de Negócios – Plano de negócios e consultoria fiscal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "company_services",
+            "title": "Serviços de Empresa – Constituição de empresa e registro de marca",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "company_domiciliation",
+            "title": "Domiciliação de Empresa",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "bank_account",
+            "title": "Conta bancária",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "accounting",
+            "title": "Contabilidade",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ]
+      }
+    },
+    "real-estate-investments-management": {
+      "title": "Investimentos e Gestão Imobiliária",
+      "description": [
+        "Com a E-golden, você pode ter uma solução imobiliária integrada desde a fase de planejamento até a gestão diária de propriedades em Portugal."
+      ],
+      "location": "realestate",
+      "imageUrl": "/images/realestate.png",
+      "details": {
+        "label": "Real Estate Investments and Management",
+        "description": "Investir em imóveis pode ser altamente lucrativo, mas também complexo, exigindo expertise, planejamento estratégico e gestão meticulosa. Os Serviços de Investimentos e Gestão Imobiliária da E-Golden são projetados para guiá-lo a maximizar retornos, minimizar riscos e garantir a operação tranquila de seus ativos imobiliários. Seja você um investidor individual ou uma entidade corporativa, nosso conjunto abrangente de serviços é adaptado para atender às suas necessidades e objetivos únicos.",
+
+        "services": [
+          {
+            "label": "real_estate_investment_planning",
+            "title": "Planejamento de Investimentos Imobiliários",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "property_search_services",
+            "title": "Serviços de Busca de Propriedades",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "assistance_with_property_purchase",
+            "title": "Assistência na Compra de Propriedades",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "real_estate_management_services",
+            "title": "Serviços de Gestão Imobiliária",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "title": "Sobre Nós",
+    "p1": "Saiba mais sobre nossa missão e serviços.",
+    "email": "Email: info@example.com",
+    "phone": "Telefone: +123 456 7890",
+    "schedule_meeting": "Agendar Reunião",
+    "quick_links": "Links Rápidos",
+    "services": "Serviços",
+    "about_us": "Sobre Nós",
+    "follow_us": "Siga nos",
+    "contact": "Contato",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reserved": "E-Golden. Todos os direitos reservados.",
+    "moto": "Especialistas em relocação e impostos em Portugal, da sua residência ao seu projeto"
+  },
+  "header": {
+    "home": "Início",
+    "residency_relocation": "Residência e Realocação",
+    "tax_planning": "Planejamento Fiscal",
+    "business": "Negócios",
+    "real_estate": "Imóveis",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "contact_form": {
+    "contact_us": "Fale Conosco!",
+    "first_name": "Nome:",
+    "last_name": "Sobrenome:",
+    "topic": "Assunto:",
+    "select_topic": "Selecione um assunto",
+    "relocation_inquiry": "Consulta de Realocação",
+    "tax": "Impostos",
+    "business_solutions": "Soluções de Negócios",
+    "real_estate": "Imobiliário",
+    "message": "Mensagem:",
+    "email": "Email:",
+    "submit": "Enviar"
+  },
+
+  "testimonials": {
+    "buttonTxt": "Ler mais",
+    "list": [
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      }
+    ]
+  },
+
+  "press": {
+    "title": "Imprensa",
+    "list": [
+      {
+        "title": "Avanços Tecnológicos",
+        "description": "Últimos avanços em tecnologia.",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Avanços Tecnológicos",
+        "description": "Últimos avanços em tecnologia.",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Avanços Tecnológicos",
+        "description": "Últimos avanços em tecnologia.",
+        "imageUrl": "/images/relocation.png"
+      }
+    ]
+  },
+  "contactForm": {
+    "title": "Tem uma pergunta? Entre em contato conosco",
+    "description": "Responderemos por email dentro de no máximo um dia útil.",
+    "fields": [
+      {
+        "placeholder": "Nome*"
+      },
+      {
+        "placeholder": "Sobrenome*"
+      },
+      {
+        "placeholder": "Email*"
+      },
+      {
+        "placeholder": "Nacionalidade*",
+        "options": ["País1", "País2", "..."]
+      },
+      {
+        "placeholder": "Residência*",
+        "options": ["País1", "País2", "..."]
+      },
+      {
+        "placeholder": "O que lhe interessa?*"
+      }
+    ],
+    "note": "Nota: Ao nos contatar, você está dando seu consentimento para que possamos encaminhar seus dados para a E-golden responder diretamente a você.",
+    "submit": {
+      "text": "Enviar"
+    }
+  }
+}

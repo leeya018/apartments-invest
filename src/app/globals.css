@@ -1,0 +1,116 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* text-decoration-color: white;
+  background-color: black;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300; */
+  line-height: 1.75rem;
+  background-color: black;
+  text-decoration-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div,
+input {
+  @apply text-white;
+  /* @apply border-2 border-black; */
+}
+
+.title {
+  @apply text-5xl font-semibold  mb-8 mt-8 flex justify-center;
+}
+.sub-title {
+  /* @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center; */
+  @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center;
+}
+
+.title-left {
+  @apply text-5xl font-semibold  mb-4 mt-8;
+}
+
+.title-image {
+  @apply text-6xl font-bold  mb-4 mt-8 flex justify-center;
+}
+
+.popup {
+  @apply border-2 z-50 cursor-pointer rounded-md  p-4    shadow-xl border-black flex items-center justify-center space-x-4;
+}
+button {
+  @apply border-2 rounded-md border-black p-2 cursor-pointer;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Remove scrollbar space */
+}
+.nav-button {
+  @apply font-medium border-2 rounded-md border-black p-2 hover:scale-105 duration-100;
+}
+.center-absolute {
+  @apply absolute  top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2;
+}
+.center-absolute-top {
+  @apply absolute  top-1/4 left-1/2  -translate-x-1/2 -translate-y-1/2;
+}
+
+.text {
+  @apply font-light text-grayT text-[18px] leading-[30.8px] max-w-[1420px] mt-5;
+}
+
+.text-middle {
+  @apply mx-auto flex justify-center;
+}
+
+.side-padding {
+  @apply px-5 md:px-44;
+}
+
+/* Smooth scrolling on hover */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Scroll animation */
+.scroll-auto:hover {
+  animation: scrollLeft 10s linear infinite;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
