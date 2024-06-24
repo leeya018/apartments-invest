@@ -5,12 +5,15 @@ import Footer from "@/components/Footer";
 import { observer } from "mobx-react-lite";
 import ApartmentList from "@/components/ApartmentList";
 import AddApartmentForm from "@/components/AddApartmentForm";
+import ProtectedRoute from "@/components/protectedRout";
 
 const Main = observer(() => {
   return (
-    <div>
+    <ProtectedRoute>
+      <Header />
       <ApartmentList />
-    </div>
+      <Footer />
+    </ProtectedRoute>
   );
 });
 

@@ -5,15 +5,25 @@ import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import { languageStore } from "@/mobx/languageStore";
-
+import { getAuth, signOut } from "firebase/auth";
 // components/Header.js
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { translations } = languageStore;
+  const auth = getAuth();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const logoutUser = async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error("Error logging out: ", error);
+      throw error;
+    }
   };
 
   return (
@@ -75,6 +85,9 @@ const Header = () => {
                 {translations.header.contact}
               </span>
             </p>
+          </button>
+          <button className="button" onClick={logoutUser}>
+            Loout
           </button>
         </div>
       </nav>

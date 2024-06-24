@@ -3,8 +3,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Modal from "@/components/Modal";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
@@ -29,8 +27,6 @@ function RootLayout({
   return (
     <html lang="en">
       <body className="body">
-        <Header />
-
         <Modal
           bgColor="bg-card-gradient"
           isOpen={ModalStore.modalName === modals.apartment}
@@ -42,7 +38,6 @@ function RootLayout({
         </Modal>
 
         <main className="mt-24 min-h-screen">{children}</main>
-        <Footer />
       </body>
     </html>
   );

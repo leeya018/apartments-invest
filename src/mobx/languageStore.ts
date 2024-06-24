@@ -74,5 +74,4 @@ export const languageStore = new LanguageStore();
 
 autorun(() => {
   console.log(languageStore.locale);
-  console.log(toJS(languageStore.translations));
 });
