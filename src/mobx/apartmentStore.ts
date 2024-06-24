@@ -3,7 +3,8 @@ import { apartment } from "@/util";
 import { makeAutoObservable } from "mobx";
 
 class ApartmentStore {
-  apartments = apartment;
+  apartments: Apartment[] = apartment;
+  chosenApartment: Apartment | null = null;
 
   constructor() {
     makeAutoObservable(this);
@@ -11,6 +12,10 @@ class ApartmentStore {
 
   addApartment(apartment: Apartment) {
     this.apartments.push(apartment);
+  }
+
+  chooseApartment(apartment: Apartment) {
+    this.chosenApartment = apartment;
   }
 }
 

@@ -1,3 +1,5 @@
+import { Apartment } from "./interfaces/Apartment";
+
 export const imageUrls = [
   "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -82,7 +84,7 @@ export interface Service {
 // ];
 
 export const modals = {
-  scedule: "scedule",
+  apartment: "apartment",
   contact: "contact",
   testemonial: "testemonial",
 };
@@ -731,12 +733,12 @@ export const handleWhatsAppClick = () => {
   window.open(url, "_blank");
 };
 
-export const apartment = [
+export const apartment: Apartment[] = [
   {
     id: 1,
     title: "Modern Apartment in City Center",
     location: "123 Main St, Springfield",
-    price_per_day: 55,
+    price: 55,
     bedrooms: 2,
     bathrooms: 1,
     square_feet: 850,
@@ -744,24 +746,27 @@ export const apartment = [
     images: ["/images/house.png", "/images/house.png"],
     description:
       "A modern apartment located in the heart of the city, close to all amenities.",
+    occupancy: 0,
   },
+
   {
     id: 2,
     title: "Cozy Studio Near the Park",
     location: "456 Park Ave, Springfield",
-    price_per_day: 45,
+    price: 45,
     bedrooms: 1,
     bathrooms: 1,
     square_feet: 500,
     amenities: ["WiFi", "Heating", "Kitchen"],
     images: ["/images/house.png", "/images/house.png"],
     description: "A cozy studio apartment with a beautiful view of the park.",
+    occupancy: 0,
   },
   {
     id: 3,
     title: "Spacious Family Apartment",
     location: "789 Elm St, Springfield",
-    price_per_day: 70,
+    price: 70000,
     bedrooms: 3,
     bathrooms: 2,
     square_feet: 1200,
@@ -776,5 +781,6 @@ export const apartment = [
     images: ["/images/house.png", "/images/house.png"],
     description:
       "A spacious apartment perfect for families, located in a quiet neighborhood.",
+    occupancy: 12,
   },
 ];

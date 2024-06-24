@@ -18,6 +18,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow: hidden;
 }
 
 div,
@@ -46,7 +47,7 @@ input {
   @apply border-2 z-50 cursor-pointer rounded-md  p-4    shadow-xl border-black flex items-center justify-center space-x-4;
 }
 button {
-  @apply border-2 rounded-md border-black p-2 cursor-pointer;
+  @apply border-2 rounded-md border-white p-2 cursor-pointer;
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Remove scrollbar space */

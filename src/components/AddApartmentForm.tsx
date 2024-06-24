@@ -7,13 +7,14 @@ const AddApartmentForm = () => {
     id: 0,
     title: "",
     location: "",
-    price_per_day: 0,
+    price: 0,
     bedrooms: 0,
     bathrooms: 0,
     square_feet: 0,
     amenities: [],
     images: [],
     description: "",
+    occupancy: 0,
   });
 
   const handleChange = (
@@ -23,7 +24,7 @@ const AddApartmentForm = () => {
     setNewApartment({
       ...newApartment,
       [name]:
-        name === "price_per_day" ||
+        name === "price" ||
         name === "bedrooms" ||
         name === "bathrooms" ||
         name === "square_feet"
@@ -39,13 +40,14 @@ const AddApartmentForm = () => {
       id: 0,
       title: "",
       location: "",
-      price_per_day: 0,
+      price: 0,
       bedrooms: 0,
       bathrooms: 0,
       square_feet: 0,
       amenities: [],
       images: [],
       description: "",
+      occupancy: 0,
     });
   };
 
@@ -82,8 +84,8 @@ const AddApartmentForm = () => {
           <label className="block text-gray-700">Price per day</label>
           <input
             type="number"
-            name="price_per_day"
-            value={newApartment.price_per_day}
+            name="price"
+            value={newApartment.price}
             onChange={handleChange}
             className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
             required

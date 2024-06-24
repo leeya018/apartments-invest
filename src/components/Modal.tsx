@@ -12,7 +12,7 @@ type ModalProps = {
 function Modal({ isOpen, closeModal, children, bgColor }: ModalProps) {
   return (
     <Transition appear show={isOpen} as={Fragment}>
-      <Dialog as="div" className="relative z-10 " onClose={closeModal}>
+      <Dialog as="div" className="relative z-50 " onClose={closeModal}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -22,11 +22,14 @@ function Modal({ isOpen, closeModal, children, bgColor }: ModalProps) {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 " />
+          <div className="fixed inset-0 bg-white bg-opacity-20  " />
         </Transition.Child>
 
-        <div className="fixed inset-0 overflow-y-auto">
-          <div className="flex min-h-full items-center justify-center p-4 text-center">
+        <div className="fixed inset-0 overflow-y-auto ">
+          <div
+            className="flex min-h-full 
+          items-center justify-center p-4 text-center "
+          >
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -38,7 +41,7 @@ function Modal({ isOpen, closeModal, children, bgColor }: ModalProps) {
             >
               {/* <Dialog.Panel className="w-[50vw] rounded-md max-w-full transform overflow-hidden   p-6 text-left align-middle shadow-xl transition-all"> */}
               <Dialog.Panel
-                className={`w-[50vw] rounded-md max-w-full transform overflow-hidden   p-6 text-left align-middle shadow-xl transition-all  ${bgColor}`}
+                className={`w-[50vw] rounded-md max-w-full transform overflow-y-auto   p-6 text-left align-middle shadow-xl transition-all  ${bgColor}`}
               >
                 {children}
               </Dialog.Panel>

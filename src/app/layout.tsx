@@ -9,6 +9,8 @@ import Modal from "@/components/Modal";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
+import ApartmentInfo from "@/components/ApartmentInfo";
+import apartmentStore from "@/mobx/apartmentStore";
 
 // import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
@@ -30,11 +32,13 @@ function RootLayout({
         <Header />
 
         <Modal
-          bgColor="bg-white"
-          isOpen={ModalStore.modalName === modals.scedule}
-          closeModal={ModalStore.closeModal}
+          bgColor="bg-card-gradient"
+          isOpen={ModalStore.modalName === modals.apartment}
+          closeModal={() => {
+            ModalStore.closeModal();
+          }}
         >
-          <div>soemthign</div>
+          <ApartmentInfo />
         </Modal>
 
         <main className="mt-24 min-h-screen">{children}</main>
