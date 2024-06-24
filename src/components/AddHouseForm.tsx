@@ -1,9 +1,12 @@
-import { Apartment } from "@/interfaces/Apartment";
-import apartmentStore from "@/mobx/apartmentStore";
-import React, { useState } from "react";
+import { House } from "@/interfaces/House";
+import houseStore from "@/mobx/houseStore";
 
-const AddApartmentForm = () => {
-  const [newApartment, setNewApartment] = useState<Apartment>({
+import React, { useState } from "react";
+import ImageUploader from "./ImageUploader";
+import Image from "next/image";
+
+const AddHouseForm = () => {
+  const [newHouse, setNewHouse] = useState<House>({
     id: 0,
     title: "",
     location: "",
@@ -16,13 +19,14 @@ const AddApartmentForm = () => {
     description: "",
     occupancy: 0,
   });
+  console.log(newHouse.images);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    setNewApartment({
-      ...newApartment,
+    setNewHouse({
+      ...newHouse,
       [name]:
         name === "price" ||
         name === "bedrooms" ||
@@ -35,8 +39,8 @@ const AddApartmentForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    apartmentStore.addApartment({ ...newApartment, id: Date.now() });
-    setNewApartment({
+    houseStore.addHouse({ ...newHouse, id: Date.now() });
+    setNewHouse({
       id: 0,
       title: "",
       location: "",
@@ -51,6 +55,13 @@ const AddApartmentForm = () => {
     });
   };
 
+  const handleUpload = (urls: string[]) => {
+    setNewHouse({
+      ...newHouse,
+      images: urls,
+    });
+  };
+
   return (
     <form
       onSubmit={handleSubmit}
@@ -62,7 +73,7 @@ const AddApartmentForm = () => {
         <input
           type="text"
           name="title"
-          value={newApartment.title}
+          value={newHouse.title}
           onChange={handleChange}
           className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
           required
@@ -73,7 +84,7 @@ const AddApartmentForm = () => {
         <input
           type="text"
           name="location"
-          value={newApartment.location}
+          value={newHouse.location}
           onChange={handleChange}
           className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
           required
@@ -85,7 +96,7 @@ const AddApartmentForm = () => {
           <input
             type="number"
             name="price"
-            value={newApartment.price}
+            value={newHouse.price}
             onChange={handleChange}
             className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
             required
@@ -96,7 +107,7 @@ const AddApartmentForm = () => {
           <input
             type="number"
             name="bedrooms"
-            value={newApartment.bedrooms}
+            value={newHouse.bedrooms}
             onChange={handleChange}
             className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
             required
@@ -109,7 +120,7 @@ const AddApartmentForm = () => {
           <input
             type="number"
             name="bathrooms"
-            value={newApartment.bathrooms}
+            value={newHouse.bathrooms}
             onChange={handleChange}
             className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
             required
@@ -120,7 +131,7 @@ const AddApartmentForm = () => {
           <input
             type="number"
             name="square_feet"
-            value={newApartment.square_feet}
+            value={newHouse.square_feet}
             onChange={handleChange}
             className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
             required
@@ -134,10 +145,10 @@ const AddApartmentForm = () => {
         <input
           type="text"
           name="amenities"
-          value={newApartment.amenities.join(", ")}
+          value={newHouse.amenities.join(", ")}
           onChange={(e) =>
-            setNewApartment({
-              ...newApartment,
+            setNewHouse({
+              ...newHouse,
               amenities: e.target.value.split(", "),
             })
           }
@@ -145,6 +156,8 @@ const AddApartmentForm = () => {
           required
         />
       </div>
+      <ImageUploader onUpload={handleUpload} />
+
       <div className="mb-4">
         <label className="block text-gray-700">
           Images URLs (comma separated)
@@ -152,10 +165,10 @@ const AddApartmentForm = () => {
         <input
           type="text"
           name="images"
-          value={newApartment.images.join(", ")}
+          value={newHouse.images.join(", ")}
           onChange={(e) =>
-            setNewApartment({
-              ...newApartment,
+            setNewHouse({
+              ...newHouse,
               images: e.target.value.split(", "),
             })
           }
@@ -167,7 +180,7 @@ const AddApartmentForm = () => {
         <label className="block text-gray-700">Description</label>
         <textarea
           name="description"
-          value={newApartment.description}
+          value={newHouse.description}
           onChange={handleChange}
           className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
           required
@@ -183,4 +196,4 @@ const AddApartmentForm = () => {
   );
 };
 
-export default AddApartmentForm;
+export default AddHouseForm;

@@ -16,8 +16,9 @@ import { useRouter } from "next/navigation";
 // import Alerts from "@/ui/Alerts";
 import { messageStore } from "@/mobx/messageStore";
 import Alerts from "@/ui/Alerts";
-import { User } from "@/firestore/user/interfaces";
+
 import { getUserFirestore } from "@/firestore";
+import userStore from "@/mobx/userStore";
 
 function login() {
   const router = useRouter();
@@ -30,6 +31,8 @@ function login() {
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
       const userData = await getUserFirestore(user);
+      userStore.setUser(userData);
+
       console.log({ userData });
       router.push("/");
     } catch (error) {

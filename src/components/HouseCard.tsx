@@ -1,5 +1,5 @@
-import { Apartment } from "@/interfaces/Apartment";
-import apartmentStore from "@/mobx/apartmentStore";
+import { House } from "@/interfaces/House";
+import apartmentStore from "@/mobx/houseStore";
 import { ModalStore } from "@/mobx/modalStore";
 import ProgressBar from "@/ui/ProgressBar";
 import { modals } from "@/util";
@@ -7,14 +7,14 @@ import { observer } from "mobx-react-lite";
 import Image from "next/image";
 
 type ApartmentCardProps = {
-  apartment: Apartment;
+  apartment: House;
 };
 const ApartmentCard = observer(({ apartment }: ApartmentCardProps) => {
   return (
     <div
       className="cursor-pointer"
       onClick={() => {
-        apartmentStore.chooseApartment(apartment);
+        apartmentStore.chooseHouse(apartment);
         ModalStore.openModal(modals.apartment);
       }}
     >

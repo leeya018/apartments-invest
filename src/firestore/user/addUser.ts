@@ -1,13 +1,13 @@
-import { db } from "@/firebase"
-import { doc, setDoc } from "firebase/firestore"
-import { User } from "./interfaces"
+import { db } from "@/firebase";
+import { User } from "@/interfaces/User";
+import { doc, setDoc } from "firebase/firestore";
 
 export const addUser = async (user: User) => {
   try {
-    const docRef = doc(db, "users", user.userId)
-    await setDoc(docRef, user)
+    const docRef = doc(db, "users", user.uid);
+    await setDoc(docRef, user);
   } catch (error) {
-    const e = error as Error
-    console.log(e.message)
+    const e = error as Error;
+    console.log(e.message);
   }
-}
+};

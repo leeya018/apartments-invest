@@ -6,6 +6,8 @@ import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import { languageStore } from "@/mobx/languageStore";
 import { getAuth, signOut } from "firebase/auth";
+import userStore from "@/mobx/userStore";
+import { toJS } from "mobx";
 // components/Header.js
 
 const Header = () => {
@@ -26,8 +28,13 @@ const Header = () => {
     }
   };
 
+  console.log({ userAuth: toJS(userStore.user) });
+
   return (
-    <header className="bg-black border-white text-white p-4 fixed top-0 left-0 right-0 z-50 border-b-2">
+    <header
+      className="bg-black border-white text-white p-4 fixed top-0 left-0 
+    right-0 z-0 border-b-2"
+    >
       <nav className=" container mx-auto flex justify-between items-center">
         {/* <div className="  ">
           <LanguageSwitcher />
@@ -58,9 +65,11 @@ const Header = () => {
           <Link href="/" className="nav-button">
             {translations.header.home}
           </Link>
-          <Link href={"/addHouse"} className="nav-button">
-            add house
-          </Link>
+          {userStore.user?.role === "admin" && (
+            <Link href={"/addHouse"} className="nav-button">
+              add house
+            </Link>
+          )}
           <Link href={"/service/tax-planning-advice"} className="nav-button">
             {translations.header.tax_planning}
           </Link>

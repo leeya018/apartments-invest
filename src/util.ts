@@ -1,4 +1,4 @@
-import { Apartment } from "./interfaces/Apartment";
+import { House } from "./interfaces/House";
 
 export const imageUrls = [
   "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -733,7 +733,7 @@ export const handleWhatsAppClick = () => {
   window.open(url, "_blank");
 };
 
-export const apartment: Apartment[] = [
+export const houses: House[] = [
   {
     id: 1,
     title: "Modern Apartment in City Center",

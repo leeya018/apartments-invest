@@ -20,7 +20,7 @@ const ProtectedRoute: FC<ProtectedRouteProps> = observer(({ children }) => {
       console.log(user);
       if (user) {
         setIsAuthenticated(true);
-        userStore.setUser(user);
+        userStore.updateUser(user);
       } else {
         userStore.setUser(null);
         router.push("/login");

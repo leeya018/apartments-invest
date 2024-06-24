@@ -1,4 +1,4 @@
-export type Apartment = {
+export type House = {
   id: number;
   title: string;
   location: string;

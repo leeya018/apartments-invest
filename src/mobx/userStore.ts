@@ -13,8 +13,13 @@ class UserS {
       this.user = null;
       return;
     }
+    const { photoURL, uid, displayName, email, role } = newUser;
+    this.user = { photoURL, userId: uid, displayName, email, role };
+  };
+
+  updateUser = (newUser: any) => {
     const { photoURL, uid, displayName, email } = newUser;
-    this.user = { photoURL, userId: uid, displayName, email };
+    this.user = { ...this.user, photoURL, uid, displayName, email };
   };
 }
 
