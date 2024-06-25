@@ -1,28 +1,25 @@
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { db, storage } from "@/firebase";
 import { isUserExist } from "@/firestore/user/isUserExist";
+import { User } from "@/interfaces/User";
 
 // audios
 // images
-export const addFileApi = async (
-  uid: string,
-  file: any,
-  folderName: string
-) => {
-  console.log({ uid, file, folderName });
+export const addFileApi = async (user: User, files: any) => {
+  console.log({ uid: user.uid, files });
   try {
-    if (!isUserExist(uid)) {
-      throw new Error(`User with id : ${uid} not found`);
+    if (!isUserExist(user.uid)) {
+      throw new Error(`User with id : ${user.uid} not found`);
     }
-    console.log("folder name is " + folderName);
-    const storageRef = ref(storage, `users/${uid}/${folderName}/${file.name}`);
 
-    const snapshot = await uploadBytes(storageRef, file);
-    const downloadURL = await getDownloadURL(storageRef);
+    const uploadPromises = files.map(async (file: File) => {
+      const storageRef = ref(storage, `users/${user.uid}/images/${file.name}`);
+      const snapshot = await uploadBytes(storageRef, file);
+      return await getDownloadURL(snapshot.ref);
+    });
 
-    console.log(`File available at: ${downloadURL}`, db);
-
-    return downloadURL;
+    const urls = await Promise.all(uploadPromises);
+    return urls;
   } catch (error: any) {
     console.log(error.message);
     throw error;

@@ -7,7 +7,6 @@ import Image from "next/image";
 
 const AddHouseForm = () => {
   const [newHouse, setNewHouse] = useState<House>({
-    id: 0,
     title: "",
     location: "",
     price: 0,
@@ -19,6 +18,8 @@ const AddHouseForm = () => {
     description: "",
     occupancy: 0,
   });
+  const [images, setImages] = useState<File[]>([]);
+
   console.log(newHouse.images);
 
   const handleChange = (
@@ -39,7 +40,10 @@ const AddHouseForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    houseStore.addHouse({ ...newHouse, id: Date.now() });
+    if (!images) {
+      throw new Error(" you have to add images ");
+    }
+    houseStore.addHouse(newHouse, images);
     setNewHouse({
       id: 0,
       title: "",
@@ -52,13 +56,6 @@ const AddHouseForm = () => {
       images: [],
       description: "",
       occupancy: 0,
-    });
-  };
-
-  const handleUpload = (urls: string[]) => {
-    setNewHouse({
-      ...newHouse,
-      images: urls,
     });
   };
 
@@ -156,9 +153,12 @@ const AddHouseForm = () => {
           required
         />
       </div>
-      <ImageUploader onUpload={handleUpload} />
+      <ImageUploader
+        images={images}
+        onChangeImages={(images) => setImages(images)}
+      />
 
-      <div className="mb-4">
+      {/* <div className="mb-4">
         <label className="block text-gray-700">
           Images URLs (comma separated)
         </label>
@@ -175,7 +175,7 @@ const AddHouseForm = () => {
           className="mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
           required
         />
-      </div>
+      </div> */}
       <div className="mb-4">
         <label className="block text-gray-700">Description</label>
         <textarea

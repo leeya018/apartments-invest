@@ -2,7 +2,11 @@
 const nextConfig = {
   reactStrictMode: false,
   images: {
-    domains: ["youtube.com", "images.unsplash.com"], // Replace with your image domain
+    domains: [
+      "youtube.com",
+      "images.unsplash.com0",
+      "firebasestorage.googleapis.com",
+    ], // Replace with your image domain
   },
 };
 

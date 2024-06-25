@@ -65,11 +65,11 @@ const Header = () => {
           <Link href="/" className="nav-button">
             {translations.header.home}
           </Link>
-          {userStore.user?.role === "admin" && (
-            <Link href={"/addHouse"} className="nav-button">
-              add house
-            </Link>
-          )}
+          {/* {userStore.user?.role === "admin" && ( */}
+          <Link href={"/addHouse"} className="nav-button">
+            add house
+          </Link>
+
           <Link href={"/service/tax-planning-advice"} className="nav-button">
             {translations.header.tax_planning}
           </Link>
