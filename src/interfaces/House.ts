@@ -1,5 +1,5 @@
 export type House = {
-  id?: number;
+  id?: string;
   title: string;
   location: string;
   price: number;
@@ -9,5 +9,5 @@ export type House = {
   amenities: string[];
   images: string[];
   description: string;
-  occupancy: number;
+  occupency: number;
 };

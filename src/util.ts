@@ -84,7 +84,7 @@ export interface Service {
 // ];
 
 export const modals = {
-  apartment: "apartment",
+  house: "house",
   contact: "contact",
   testemonial: "testemonial",
 };
@@ -746,7 +746,7 @@ export const houses: House[] = [
     images: ["/images/house.png", "/images/house.png"],
     description:
       "A modern apartment located in the heart of the city, close to all amenities.",
-    occupancy: 0,
+    occupency: 0,
   },
 
   {
@@ -760,7 +760,7 @@ export const houses: House[] = [
     amenities: ["WiFi", "Heating", "Kitchen"],
     images: ["/images/house.png", "/images/house.png"],
     description: "A cozy studio apartment with a beautiful view of the park.",
-    occupancy: 0,
+    occupency: 0,
   },
   {
     id: 3,
@@ -781,7 +781,7 @@ export const houses: House[] = [
     images: ["/images/house.png", "/images/house.png"],
     description:
       "A spacious apartment perfect for families, located in a quiet neighborhood.",
-    occupancy: 12,
+    occupency: 12,
   },
 ];
 

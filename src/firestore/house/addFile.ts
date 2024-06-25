@@ -5,7 +5,7 @@ import { User } from "@/interfaces/User";
 
 // audios
 // images
-export const addFileApi = async (user: User, files: any) => {
+export const addFile = async (user: User, files: any) => {
   console.log({ uid: user.uid, files });
   try {
     if (!isUserExist(user.uid)) {

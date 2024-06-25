@@ -16,7 +16,7 @@ const AddHouseForm = () => {
     amenities: [],
     images: [],
     description: "",
-    occupancy: 0,
+    occupency: 0,
   });
   const [images, setImages] = useState<File[]>([]);
 
@@ -55,7 +55,7 @@ const AddHouseForm = () => {
       amenities: [],
       images: [],
       description: "",
-      occupancy: 0,
+      occupency: 0,
     });
   };
 

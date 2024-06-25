@@ -1,6 +1,7 @@
 import { Fragment, ReactNode } from "react";
 
 import { Dialog, Transition } from "@headlessui/react";
+import { observer } from "mobx-react-lite";
 
 type ModalProps = {
   isOpen: boolean;
@@ -53,4 +54,4 @@ function Modal({ isOpen, closeModal, children, bgColor }: ModalProps) {
   );
 }
 
-export default Modal;
+export default observer(Modal);

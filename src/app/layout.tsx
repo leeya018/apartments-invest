@@ -48,7 +48,7 @@ function RootLayout({
 
         <Modal
           bgColor="bg-card-gradient"
-          isOpen={ModalStore.modalName === modals.apartment}
+          isOpen={ModalStore.modalName === modals.house}
           closeModal={() => {
             ModalStore.closeModal();
           }}

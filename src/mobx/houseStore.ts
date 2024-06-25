@@ -1,12 +1,11 @@
-import { addFileApiFirestore, addHouseFirestore } from "@/firestore";
+import { addFileApi, addHouseApi, getHousesApi } from "@/firestore";
 import { House } from "@/interfaces/House";
 
 import { houses } from "@/util";
-import { makeAutoObservable } from "mobx";
+import { autorun, makeAutoObservable, toJS } from "mobx";
 import userStore from "./userStore";
 import { User } from "@/interfaces/User";
 import { messageStore } from "./messageStore";
-import { getHousesApi } from "@/firestore/house/getHouses";
 
 class HouseStore {
   houses: House[] = [];
@@ -20,12 +19,12 @@ class HouseStore {
   async addHouse(house: House, Images: File[]) {
     try {
       const user: User = userStore.user;
-      const imageUrls = await addFileApiFirestore(user, Images);
+      const imageUrls = await addFileApi(user, Images);
       if (!imageUrls) {
         throw new Error("could not creaet the imagesUrls ");
       }
       const updatedHouse = { ...house, images: imageUrls };
-      const newHouse = await addHouseFirestore(user, updatedHouse);
+      const newHouse = await addHouseApi(user, updatedHouse);
       this.houses.push(newHouse);
       messageStore.setMessage("house added successfully", 201);
     } catch (error) {
@@ -42,6 +41,15 @@ class HouseStore {
       messageStore.setMessage("Failed to add house ", error?.code || 500);
     }
   }
+  async updateHouse(houseId: string, info: any) {
+    this.houses = this.houses.map((house) => {
+      if (house.id === houseId) {
+        return { ...house, ...info };
+      }
+      return house;
+    });
+    // this.chosenHouse = { ...this.chooseHouse, ...info };
+  }
 
   chooseHouse(house: House) {
     this.chosenHouse = house;
@@ -50,3 +58,7 @@ class HouseStore {
 
 const houseStore = new HouseStore();
 export default houseStore;
+
+autorun(() => {
+  console.log(toJS(houseStore.houses));
+});

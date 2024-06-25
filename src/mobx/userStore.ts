@@ -1,5 +1,5 @@
+import { Property } from "@/interfaces/Property";
 import { autorun, makeAutoObservable, toJS } from "mobx";
-import { makePersistable } from "mobx-persist-store";
 
 class UserS {
   user: any | null = null;
@@ -20,6 +20,13 @@ class UserS {
   updateUser = (newUser: any) => {
     const { photoURL, uid, displayName, email } = newUser;
     this.user = { ...this.user, photoURL, uid, displayName, email };
+  };
+
+  addProperty = (property: Property) => {
+    if (!this.user.properties) {
+      this.user.properties = [];
+      this.user.properties.push(property);
+    }
   };
 }
 

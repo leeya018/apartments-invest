@@ -1,21 +1,21 @@
 import { House } from "@/interfaces/House";
-import apartmentStore from "@/mobx/houseStore";
+import houseStore from "@/mobx/houseStore";
 import { ModalStore } from "@/mobx/modalStore";
 import ProgressBar from "@/ui/ProgressBar";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
 
-type ApartmentCardProps = {
-  apartment: House;
+type HouseCardProps = {
+  house: House;
 };
-const ApartmentCard = observer(({ apartment }: ApartmentCardProps) => {
+const HouseCard = observer(({ house }: HouseCardProps) => {
   return (
     <div
       className="cursor-pointer"
       onClick={() => {
-        apartmentStore.chooseHouse(apartment);
-        ModalStore.openModal(modals.apartment);
+        houseStore.chooseHouse(house);
+        ModalStore.openModal(modals.house);
       }}
     >
       <Image
@@ -23,28 +23,24 @@ const ApartmentCard = observer(({ apartment }: ApartmentCardProps) => {
         alt={"house"}
         width={500}
         height={500}
-        src={apartment.images[0]}
+        src={house.images[0]}
       />
       <div className="p-3">
         <h2 className=" text-xl font-semibold mt-2 line-clamp-1">
-          {apartment.title}
+          {house.title}
         </h2>
         <div className="flex flex-col gap-2 line-clamp-3">
-          {apartment.description}
+          {house.description}
         </div>
+        <div className="flex flex-col gap-2 line-clamp-3">{house.location}</div>
+        <div className="flex flex-col gap-2 line-clamp-3">{house.price}</div>
         <div className="flex flex-col gap-2 line-clamp-3">
-          {apartment.location}
-        </div>
-        <div className="flex flex-col gap-2 line-clamp-3">
-          {apartment.price}
-        </div>
-        <div className="flex flex-col gap-2 line-clamp-3">
-          <div className="mb-2">occupancy: {apartment.occupancy}</div>
-          <ProgressBar value={apartment.occupancy} />
+          <div className="mb-2">occupency: {house.occupency}</div>
+          <ProgressBar value={house.occupency} />
         </div>
       </div>
     </div>
   );
 });
 
-export default ApartmentCard;
+export default HouseCard;

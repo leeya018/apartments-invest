@@ -15,7 +15,7 @@ const ApartmentList = observer(() => {
             className={`relative border border-gold leading-7 overflow-hidden rounded-lg shadow-lg 
                 pb-2 transition-all duration-300`}
           >
-            <HouseCard apartment={house} />
+            <HouseCard house={house} />
           </li>
         ))}
       </ul>

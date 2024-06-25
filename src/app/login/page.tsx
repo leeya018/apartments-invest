@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 import { messageStore } from "@/mobx/messageStore";
 import Alerts from "@/ui/Alerts";
 
-import { getUserFirestore } from "@/firestore";
+import { getUserApi } from "@/firestore";
 import userStore from "@/mobx/userStore";
 
 function login() {
@@ -30,7 +30,7 @@ function login() {
       const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
-      const userData = await getUserFirestore(user);
+      const userData = await getUserApi(user);
       userStore.setUser(userData);
 
       console.log({ userData });

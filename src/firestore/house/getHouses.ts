@@ -2,7 +2,7 @@ import { db } from "@/firebase";
 import { House } from "@/interfaces/House";
 import { collection, getDocs } from "firebase/firestore";
 
-export const getHousesApi = async (): Promise<House[]> => {
+export const getHouses = async (): Promise<House[]> => {
   try {
     const housesCollection = collection(db, "houses");
     const houseSnapshot = await getDocs(housesCollection);
