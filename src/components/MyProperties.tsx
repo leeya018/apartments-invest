@@ -19,7 +19,7 @@ export default function MyPurchases() {
   }, []);
   console.log({ purchaseDetails });
   return (
-    <section className="mt-40">
+    <section className="mt-40 side-padding min-h-screen">
       <ul className="grid grid-cols-4 mx-auto gap-3">
         {purchaseDetails.map((pd: PurchaseDetails, key) => (
           <li key={key}>

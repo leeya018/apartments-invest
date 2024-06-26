@@ -76,17 +76,9 @@ const Header = () => {
           <Link href={"/myProperties"} className="nav-button">
             My Properties
           </Link>
-          <Link href={"/service/business-solutions"} className="nav-button">
-            {translations.header.business}
-          </Link>
-          <Link
-            href={"/service/real-estate-investments-management"}
-            className="nav-button"
-          >
-            {translations.header.real_estate}
-          </Link>
+
           <Link href="/about" className="nav-button">
-            {translations.header.about}
+            about
           </Link>
           <button
             onClick={() => ModalStore.openModal(modals.contact)}
