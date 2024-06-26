@@ -7,7 +7,7 @@ import Image from "next/image";
 
 type HouseCardProps = {
   house: House;
-  canSeleted: boolean;
+  canSeleted?: boolean;
 };
 const HouseCard = observer(({ house, canSeleted = true }: HouseCardProps) => {
   return (
