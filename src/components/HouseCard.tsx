@@ -1,21 +1,23 @@
 import { House } from "@/interfaces/House";
 import houseStore from "@/mobx/houseStore";
 import { ModalStore } from "@/mobx/modalStore";
-import ProgressBar from "@/ui/ProgressBar";
-import { modals } from "@/util";
+import { BorderLinearProgress, modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
 
 type HouseCardProps = {
   house: House;
+  canSeleted: boolean;
 };
-const HouseCard = observer(({ house }: HouseCardProps) => {
+const HouseCard = observer(({ house, canSeleted = true }: HouseCardProps) => {
   return (
     <div
-      className="cursor-pointer"
+      className={canSeleted ? "cursor-pointer" : "cursor-default"}
       onClick={() => {
-        houseStore.chooseHouse(house);
-        ModalStore.openModal(modals.house);
+        if (canSeleted) {
+          houseStore.chooseHouse(house);
+          ModalStore.openModal(modals.house);
+        }
       }}
     >
       <Image
@@ -36,7 +38,7 @@ const HouseCard = observer(({ house }: HouseCardProps) => {
         <div className="flex flex-col gap-2 line-clamp-3">{house.price}</div>
         <div className="flex flex-col gap-2 line-clamp-3">
           <div className="mb-2">occupency: {house.occupency}</div>
-          <ProgressBar value={house.occupency} />
+          <BorderLinearProgress variant="determinate" value={house.occupency} />
         </div>
       </div>
     </div>

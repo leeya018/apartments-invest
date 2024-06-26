@@ -1,4 +1,4 @@
-import { Property } from "@/interfaces/Property";
+import { Purchase } from "@/interfaces/Purchase";
 import { autorun, makeAutoObservable, toJS } from "mobx";
 
 class UserS {
@@ -22,10 +22,10 @@ class UserS {
     this.user = { ...this.user, photoURL, uid, displayName, email };
   };
 
-  addProperty = (property: Property) => {
-    if (!this.user.properties) {
-      this.user.properties = [];
-      this.user.properties.push(property);
+  addPurchase = (property: Purchase) => {
+    if (!this.user.purchases) {
+      this.user.purchases = [];
+      this.user.purchases.push(property);
     }
   };
 }

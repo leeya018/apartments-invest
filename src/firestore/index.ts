@@ -5,6 +5,7 @@ import { addFile as addFileApi } from "./house/addFile";
 import { getHouses as getHousesApi } from "./house/getHouses";
 import { addHouseToUser as addHouseToUserApi } from "./user/addHouseToUser";
 import { updateHouse as updateHouseApi } from "./house/updateHouse";
+import { getUserPurchases as getUserPurchasesApi } from "./user/getUserPurchases";
 
 export {
   addUserApi,
@@ -14,4 +15,5 @@ export {
   getHousesApi,
   addHouseToUserApi,
   updateHouseApi,
+  getUserPurchasesApi,
 };

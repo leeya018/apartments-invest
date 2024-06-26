@@ -1,9 +1,8 @@
 import houseStore from "@/mobx/houseStore";
 import { ModalStore } from "@/mobx/modalStore";
-import { modals } from "@/util";
+import { BorderLinearProgress, modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
-import ProgressBar from "../ui/ProgressBar";
 import SliderSizes from "@/ui/Slicder";
 import { useState } from "react";
 import { messageStore } from "@/mobx/messageStore";
@@ -23,13 +22,13 @@ const ApartmentInfo = observer(() => {
     try {
       console.log(userStore.user.uid);
       if (!chosenHouse.id) throw new Error("house has no id");
-      const newProperty = {
+      const newPurchase = {
         houseId: chosenHouse.id,
         portion: portionToBuy,
         buyPrice: getPrice(),
       };
-      await addHouseToUserApi(userStore.user.uid, newProperty);
-      userStore.addProperty(newProperty);
+      await addHouseToUserApi(userStore.user.uid, newPurchase);
+      userStore.addPurchase(newPurchase);
       await updateHouseApi(chosenHouse.id, {
         occupency: Number(chosenHouse.occupency) + portionToBuy,
       });
@@ -75,7 +74,10 @@ const ApartmentInfo = observer(() => {
 
         <div className="flex flex-col gap-2 line-clamp-3">
           <div className="mb-2">occupency: {chosenHouse.occupency}</div>
-          <ProgressBar value={chosenHouse.occupency} />
+          <BorderLinearProgress
+            variant="determinate"
+            value={chosenHouse.occupency}
+          />
         </div>
         <div className=" flex flex-col gap-2 line-clamp-3">
           <div className="mb-2">choose portion:</div>

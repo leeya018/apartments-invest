@@ -70,8 +70,11 @@ const Header = () => {
             add house
           </Link>
 
-          <Link href={"/service/tax-planning-advice"} className="nav-button">
-            {translations.header.tax_planning}
+          <Link href={"/myPurchases"} className="nav-button">
+            My Purchases
+          </Link>
+          <Link href={"/myProperties"} className="nav-button">
+            My Properties
           </Link>
           <Link href={"/service/business-solutions"} className="nav-button">
             {translations.header.business}

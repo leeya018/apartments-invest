@@ -1,4 +1,4 @@
-import { Property } from "./Property";
+import { Purchase } from "./Purchase";
 
 export type User = {
   uid: string;
@@ -6,5 +6,5 @@ export type User = {
   displayName: string | null;
   email: string | null;
   photoURL: string | null;
-  properties: Property[];
+  purchases: Purchase[];
 };
